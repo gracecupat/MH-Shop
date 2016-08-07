@@ -1,0 +1,43 @@
+ .wrapper {
+    font-family: courier;
+    margin: 1rem;
+ }
+ .wrapper h1 {
+    font-size: 3rem;
+ }
+.cart-list-box, .delete-button {
+    width: 1.25rem;
+    height: 1.25rem;      
+}
+.delete-button {
+    margin-left: 3rem;
+}
+.cart-list {
+    padding: 0.25rem;
+}
+.cart-list-item {
+    margin: 1rem;
+    list-style-type: none;
+}
+li.strikethrough {
+    text-decoration: line-through;
+}
+
+body {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    justify-content: center;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    align-items: center;
+
+    height: inherit;
+}
